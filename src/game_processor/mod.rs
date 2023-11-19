@@ -1,18 +1,14 @@
 use bevy::prelude::Component;
 
-
-
 pub struct Player {
     p: Position,
-    i: String
+    i: String,
 }
-
-
 
 #[derive(Component)]
 pub struct Position {
     x: u32,
-    y: u32
+    y: u32,
 }
 
 pub struct Game {
@@ -23,5 +19,3 @@ pub struct Game {
 //     EntityCreate{e: Entity},
 //     EntityDestroy{e: Entity}
 // }
-
-
